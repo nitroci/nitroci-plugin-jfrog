@@ -1,0 +1,22 @@
+id: 41033d94592b44b6b529c81e479e944e
+name: jfrog
+operations:
+    configure:
+        enabled: true
+        flags:
+            - name: domain
+              shorthand: d
+              type: string
+              usage: username
+            - name: user
+              shorthand: u
+              type: string
+              usage: username
+            - name: pass
+              shorthand: p
+              type: string
+              usage: password
+    environments:
+        enabled: true
+    pipelines:
+        enabled: true
