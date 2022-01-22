@@ -1,2 +1,3 @@
-# nitroci-plugins-jfrog
+# NitroCI JFrog Plugin
+
 Nitro CI - JFrog Plugin
