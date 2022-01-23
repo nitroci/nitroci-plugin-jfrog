@@ -1,6 +1,6 @@
 version: 1
 workspace:
-  id: 866fea34c35e43b0a0bff6b20cb4059f
+  id: 3291554368a34ae38205a263489b1289
   name: nitroci-plugins-jfrog
 commands:
   - name: build

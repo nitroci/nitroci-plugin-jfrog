@@ -491,4 +491,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/macos,osx,linux,windows,visualstudiocode,intellij+all,pycharm+all,goland,go,python
 
 dist/
-./nitroci-plugin-bitbucket
+./nitroci-plugin-jfrog

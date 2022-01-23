@@ -4,18 +4,18 @@ operations:
     configure:
         enabled: true
         flags:
-            - name: domain
-              shorthand: d
+            - name: jfrog-domain
+              shorthand:
               type: string
-              usage: username
-            - name: user
-              shorthand: u
+              usage: jfrog domain
+            - name: jfrog-user
+              shorthand:
               type: string
-              usage: username
-            - name: pass
-              shorthand: p
+              usage: jfrog username
+            - name: jfrog-pass
+              shorthand:
               type: string
-              usage: password
+              usage: jfrog password
     environments:
         enabled: true
     pipelines:
