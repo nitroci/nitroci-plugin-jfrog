@@ -8,4 +8,4 @@ commands:
     steps:
       - cwd: .
         scripts: 
-          - go build -o ./dist .
+          - mkdir -p ./dist && go build -o ./dist .
