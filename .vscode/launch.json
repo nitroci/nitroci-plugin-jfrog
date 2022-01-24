@@ -12,7 +12,7 @@
             "mode": "auto",
             "program": "./main.go",
             "args": [
-                "arg1:value1", "arg2:value2"
+                "configure", "--jfrog-domain", "nitroagility", "--jfrog-user", "name.surename", "--jfrog-pass", "pa$$w0rd"
             ]
         }
     ]

@@ -34,16 +34,15 @@ func OnConfigure(context *contexts.RuntimeContext, args []string, fields map[str
 		domain, _ = config.PromptGlobalConfigKey(context.Cli.Profile, "Domain", false)
 	}
 	var username string
-	if fields["jfrog-username"] != nil {
-		username = fields["jfrog-username"].(string)
+	if fields["jfrog-user"] != nil {
+		username = fields["jfrog-user"].(string)
 	}
 	if len(username) == 0 {
 		username, _ = config.PromptGlobalConfigKey(context.Cli.Profile, "Username", false)
-
 	}
 	var password string
-	if fields["jfrog-password"] != nil {
-		password = fields["jfrog-password"].(string)
+	if fields["jfrog-pass"] != nil {
+		password = fields["jfrog-pass"].(string)
 	}
 	if len(password) == 0 {
 		password, _ = config.PromptGlobalConfigKey(context.Cli.Profile, "Password", true)

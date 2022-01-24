@@ -3,8 +3,8 @@ module github.com/nitroci/nitroci-plugin-jfrog
 go 1.17
 
 require (
-	github.com/nitroci/nitroci-core v0.0.0-20220123223815-67ae29162cbe
-	github.com/nitroci/nitroci-plugin-core v0.0.0-20220123224025-39b5c99a615f
+	github.com/nitroci/nitroci-core v0.0.0-20220124190002-114167d63f42
+	github.com/nitroci/nitroci-plugin-core v0.0.0-20220124190315-49cdb5fae8d3
 )
 
 require (
