@@ -17,6 +17,6 @@ operations:
               type: string
               usage: jfrog password
     environments:
-        enabled: true
+        enabled: false
     pipelines:
-        enabled: true
+        enabled: false
