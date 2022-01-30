@@ -22,7 +22,7 @@ import (
 	"github.com/nitroci/nitroci-core/pkg/core/configs"
 	"github.com/nitroci/nitroci-core/pkg/core/contexts"
 	"github.com/nitroci/nitroci-core/pkg/core/terminal"
-	"github.com/nitroci/nitroci-core/pkg/core/net/http"
+	"github.com/nitroci/nitroci-core/pkg/extensions/http"
 )
 
 func OnConfigure(context *contexts.RuntimeContext, args []string, fields map[string]interface{}) {
