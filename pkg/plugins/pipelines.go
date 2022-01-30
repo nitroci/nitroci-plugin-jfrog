@@ -16,10 +16,9 @@ limitations under the License.
 package plugins
 
 import (
-	"github.com/nitroci/nitroci-core/pkg/core/contexts"
-	//"github.com/nitroci/nitroci-plugin-core/pkg/plugins"
+	pkgCContexts "github.com/nitroci/nitroci-core/pkg/core/contexts"
 )
 
-func OnPipelines(context *contexts.RuntimeContext, args []string, fields map[string]interface{}) {
-	
+func OnPipelines(context *pkgCContexts.RuntimeContext, args []string, fields map[string]interface{}) {
+
 }

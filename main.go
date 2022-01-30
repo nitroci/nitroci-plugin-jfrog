@@ -16,16 +16,16 @@ limitations under the License.
 package main
 
 import (
-	"github.com/nitroci/nitroci-plugin-core/pkg/plugins"
-	"github.com/nitroci/nitroci-plugin-core/pkg/cmd"
-	jfrog "github.com/nitroci/nitroci-plugin-jfrog/pkg/plugins"
+	pkgCCPCmd "github.com/nitroci/nitroci-cobra-plugin-core/pkg/cmd"
+	pkgCCPPlugins "github.com/nitroci/nitroci-cobra-plugin-core/pkg/core/plugins"
+	pkgPlugins "github.com/nitroci/nitroci-plugin-bitbucket/pkg/plugins"
 )
 
 func main() {
-	plugins.PluginModule = &plugins.Plugin{
-		Configure: jfrog.OnConfigure,
-		Environments: jfrog.OnEnvironments,
-		Pipelines: jfrog.OnPipelines,
+	pkgCCPPlugins.PluginModule = &pkgCCPPlugins.Plugin{
+		Configure: pkgPlugins.OnConfigure,
+		Environments: pkgPlugins.OnEnvironments,
+		Pipelines: pkgPlugins.OnPipelines,
 	}
-	cmd.Execute()
+	pkgCCPCmd.Execute()
 }
